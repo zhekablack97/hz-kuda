@@ -2,8 +2,9 @@ import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
 import html from 'remark-html'
-import { TypeGetSortedPostsData, TypelistPost, TypeSortedPost } from '../type'
+import { TypelistPost, TypeSortedPost } from '../type'
 import remark from 'remark'
+// import { TypeGetSortedPostsData } from '../type'
 
 const postsDirectory = path.join(process.cwd(), 'posts')
 
@@ -28,7 +29,7 @@ export  const getPostData = async (id: string) => {
   }
 }
 
-export const getSortedPostsData: TypeGetSortedPostsData = () => {
+export const getSortedPostsData = () => {
   // Get file names under /posts
 
   console.log(path.join(postsDirectory, `pre-rendering.md`))
