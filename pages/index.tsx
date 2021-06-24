@@ -30,7 +30,7 @@ const Home: NextPage<IHome> = ({ allPostsData }) => (
     <a href="">не знаешь хороший бар</a>
     <a href="">развлечение на 10+ человек</a> <br />
     <a href="">не хватает спорта в жизни </a> <br />
-    <a href=""></a>
+    <a href="">где бы сейчас отдохнуть от города </a>
   </section>
 );
 export default Home;
