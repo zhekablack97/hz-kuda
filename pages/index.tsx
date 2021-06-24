@@ -21,24 +21,16 @@ interface IHome {
 }
 
 const Home: NextPage<IHome> = ({ allPostsData }) => (
-  <Layout home>
-    {/* Keep the existing code here */}
-
-    {/* Add this <section> tag below the existing <section> tag */}
-    <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-      <h2 className={utilStyles.headingLg}>Blog</h2>
-      <ul className={utilStyles.list}>
-        {allPostsData.map(({ id, date, title }) => (
-          <li className={utilStyles.listItem} key={id}>
-            <Link href={`/catalog/${id}`}>{title}</Link>
-            <br />
-            {id}
-            <br />
-            {date && date}
-          </li>
-        ))}
-      </ul>
-    </section>
-  </Layout>
+  <section>
+    <h1>Помочь с выбором?</h1>
+    <a href="">доставка домаой</a> <br />
+    <a href="">отдых с компанией друзей</a> <br />
+    <a href="">активный отдых</a> <br />
+    <a href=""> поужинать с кем-то вечром</a> <br />
+    <a href="">не знаешь хороший бар</a>
+    <a href="">развлечение на 10+ человек</a> <br />
+    <a href="">не хватает спорта в жизни </a> <br />
+    <a href=""></a>
+  </section>
 );
 export default Home;
