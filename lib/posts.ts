@@ -6,7 +6,7 @@ import { TypelistPost, TypeSortedPost } from '../type'
 import remark from 'remark'
 // import { TypeGetSortedPostsData } from '../type'
 
-const postsDirectory = path.join(process.cwd(), 'posts')
+const postsDirectory = path.join(process.cwd(), 'data')
 
 export  const getPostData = async (id: string) => {
   

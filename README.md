@@ -1,4 +1,18 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Структура
+
+https://github.com/zhekablack97/hz-kuda
+
+структура папок:
+
+- ui - все визуальные компоненты
+- hook - кастомные хуки
+- pages - основные страницы
+- data - не обходимые данные пока не научусь писать бек
+- lib - не обходимые функции для работы компонентов например для обработки каких либо общих папок
+- publick - вся статика
+- store - общий стор проекта
+- styles - все миксины и глобальные стили
+- type - свалка для общих типов
 
 ## Getting Started
 

@@ -1,7 +1,7 @@
 import { GetStaticProps, NextPage } from "next";
 import Link from "next/link";
 import React from "react";
-import Layout from "../components/Layout/Layout";
+import Layout from "../ui/Layout/Layout";
 import { getSortedPostsData } from "../lib/posts";
 import utilStyles from "../styles/utils.module.scss";
 import { TypeSortedPost } from "../type";
@@ -20,7 +20,7 @@ interface IHome {
   allPostsData: TypeSortedPost[];
 }
 
-const Home: NextPage<IHome> = ({ allPostsData }) => (
+const Home: NextPage<IHome> = () => (
   <section>
     <h1>Помочь с выбором?</h1>
     <a href="">доставка домаой</a> <br />

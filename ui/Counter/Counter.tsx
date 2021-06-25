@@ -1,8 +1,5 @@
 import React from "react";
-import {
-  decrement,
-  increment,
-} from "../../functionReducer/Counter/counterSlice";
+import { decrement, increment } from "../../lib/Counter/counterSlice";
 import { useAppDispatch, useAppSelector } from "../../hook/hooks";
 
 import styles from "./Counter.module.scss";

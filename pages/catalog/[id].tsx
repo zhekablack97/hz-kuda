@@ -1,7 +1,7 @@
 import { GetStaticPaths, GetStaticProps, NextPage } from "next";
 import React from "react";
-import Date from "../../components/Date";
-import Layout from "../../components/Layout/Layout";
+import Date from "../../ui/Date";
+import Layout from "../../ui/Layout/Layout";
 import { getAllPostIds, getPostData } from "../../lib/posts";
 import { TypeSortedPost } from "../../type";
 import utilStyles from "../../styles/utils.module.scss";
