@@ -4,9 +4,8 @@ import matter from 'gray-matter'
 import html from 'remark-html'
 import { TypelistPost, TypeSortedPost } from '../type'
 import remark from 'remark'
-// import { TypeGetSortedPostsData } from '../type'
 
-const postsDirectory = path.join(process.cwd(), 'data')
+const postsDirectory = path.join(process.cwd(), 'content')
 
 export  const getPostData = async (id: string) => {
   
