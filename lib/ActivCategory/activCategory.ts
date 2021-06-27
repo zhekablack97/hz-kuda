@@ -1,5 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
-import { IActivCategory } from "@type/type";
+import { IActivCategory, TypeActivCategory } from "@type/type";
 import { RootState } from "../../store/store";
 
 
@@ -27,7 +27,7 @@ export const activCategory = createSlice({
 
 export const { food, entertainment, nature} = activCategory.actions
 
-export const selectCategory = (state: RootState)=> state.activCategory.category
+export const selectCategory = (state: RootState): TypeActivCategory => state.activCategory.category
 
 const activCategoryReducer = activCategory.reducer
 

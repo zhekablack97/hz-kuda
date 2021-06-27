@@ -2,7 +2,7 @@ import { ActionCreatorWithoutPayload } from "@reduxjs/toolkit"
 
 export type TypeFooterLink = "/food" | "/entertainment" | "/nature"
 
-type TypeActivCategory = "food" | "entertainment" | "nature"
+export type TypeActivCategory = "food" | "entertainment" | "nature"
 
 export interface IFooterLink  {
     href: TypeFooterLink

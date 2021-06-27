@@ -1,6 +1,5 @@
 import Footer from "@ui/Footer";
 import Head from "next/head";
-import Link from "next/link";
 import React from "react";
 import styles from "./Layout.module.scss";
 

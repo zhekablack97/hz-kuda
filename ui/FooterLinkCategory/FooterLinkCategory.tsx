@@ -1,11 +1,9 @@
 import React from "react";
 import { useAppDispatch, useAppSelector } from "../../hook/hooks";
 import Link from "next/link";
-import { food, entertainment, nature } from "lib/ActivCategory/activCategory";
 
 import styles from "./FooterLinkCategory.module.scss";
 import { IFooterLink } from "@type/type";
-import { ActionCreatorWithoutPayload } from "@reduxjs/toolkit";
 
 /**
  *
