@@ -12,8 +12,8 @@ const Footer: React.FC = () => {
 
   return (
     <footer className={styles.footer}>
-      сейчас активна категория {activCategory}
-      <div className={styles.wrapper}>
+      <div>сейчас активна категория {activCategory}</div>
+      <div className={styles.wrapperLink}>
         {footerLink.map((link, index) => (
           <FooterLinkCategory key={index} {...link} />
         ))}
