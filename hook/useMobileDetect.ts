@@ -25,7 +25,10 @@ const initialState = {
   isAndroid: false,
   isBot: false
 }
-
+/**
+ * 
+ * @returns хук определяет какое сейчас устройство мобильное или десктопное 
+ */
 export const useMobileDetect = () => {
 
   const [mobileDetect, setMobileDetect] = useState(initialState)
