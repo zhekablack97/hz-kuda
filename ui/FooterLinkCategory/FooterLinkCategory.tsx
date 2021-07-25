@@ -1,9 +1,9 @@
 import React from "react";
-import { useAppDispatch, useAppSelector } from "../../hook/hooks";
 import Link from "next/link";
 
 import styles from "./FooterLinkCategory.module.scss";
 import { IFooterLink } from "@type/type";
+import { useAppDispatch, useAppSelector } from "hook/reduxHook";
 
 /**
  *

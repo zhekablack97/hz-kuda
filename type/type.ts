@@ -18,6 +18,14 @@ export type TypeSortedPost = {
     contentHtml: string;
 }
 
+export type getMobileDetectType = {
+    isMobile: () => boolean;
+    isDesktop: () => boolean;
+    isAndroid: () => boolean;
+    isIos: () => boolean;
+    isSSR: () => boolean;
+}
+
 
 
 

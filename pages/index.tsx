@@ -6,7 +6,7 @@ import React from "react";
 import { getSortedPostsData } from "../lib/posts";
 import { TypeSortedPost } from "../type";
 
-export const getStaticProps: GetStaticProps = async () => {
+export const getServerSideProps: GetStaticProps = async () => {
   const allPostsData = getSortedPostsData();
 
   return {

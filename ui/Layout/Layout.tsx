@@ -1,6 +1,8 @@
 import Footer from "@ui/Footer";
+import { useMobileDetect } from "hook/useMobileDetect";
+import { useUserAgent } from "next-useragent";
 import Head from "next/head";
-import React from "react";
+import React, { useEffect } from "react";
 import styles from "./Layout.module.scss";
 
 export const siteTitle = "Next.js Sample Website";
@@ -25,6 +27,8 @@ const Layout: React.FC<Ilayout> = ({
   children,
   ...props
 }) => {
+  console.log(useMobileDetect());
+
   return (
     <div className={styles.layout} {...props}>
       <Head>

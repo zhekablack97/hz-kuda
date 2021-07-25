@@ -17,7 +17,8 @@
     "paths": {
       "@ui/*": ["ui/*"],
       "@type/*": ["type/*"],
-      "@data/*": ["data/*"]
+      "@data/*": ["data/*"],
+      "@hook/*": ["hook/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],

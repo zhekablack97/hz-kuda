@@ -1,8 +1,8 @@
 import React from "react";
-import { useAppSelector } from "../../hook/hooks";
 import FooterLinkCategory from "@ui/FooterLinkCategory";
 import { footerLink } from "@data/dataFooter";
 import styles from "./Footer.module.scss";
+import { useAppSelector } from "hook/reduxHook";
 /**
  *
  * @returns Footer - компонент подвала сайта

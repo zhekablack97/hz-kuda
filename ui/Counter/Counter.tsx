@@ -1,6 +1,6 @@
 import React from "react";
 import { decrement, increment } from "../../lib/Counter/counterSlice";
-import { useAppDispatch, useAppSelector } from "../../hook/hooks";
+import { useAppDispatch, useAppSelector } from "../../hook/reduxHook";
 
 import styles from "./Counter.module.scss";
 
