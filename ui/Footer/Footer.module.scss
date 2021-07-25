@@ -1,17 +1,22 @@
 @import "styles/const/_colors.scss";
 
 .footer{
-    height: 80px;
     position: fixed;
     bottom: 0;
-    display: grid;
-    grid-template-columns: 2fr 5fr;
     width: 100%;
 }
+.activCategory{
+    position: absolute;
+    top: -100%;
+}
 .wrapperLink{
-    display: flex;
-    border-radius: 12px 0 0 0 ;
-    justify-content: space-around;
+    width: 100%;
+    height: 80px;
+    display: inline-grid;
+    padding: 0 12px;
+    border-radius: 0 0 ;
     background-color: $purple50;
     align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
 }

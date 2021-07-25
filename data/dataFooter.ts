@@ -19,7 +19,7 @@ export const footerLink: IFooterLink[] = [
     {
         href: "/nature",
         actions: nature,
-        label: "Отдых на природе",
+        label: "Отдых",
         category: "nature"
     }
 ]

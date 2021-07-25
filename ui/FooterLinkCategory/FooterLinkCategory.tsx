@@ -7,7 +7,7 @@ import { IFooterLink } from "@type/type";
 
 /**
  *
- * @returns Footer - компонент подвала сайта
+ * @returns FooterLinkCategory - компонент ссылки категории в футере
  */
 const FooterLinkCategory: React.FC<IFooterLink> = ({
   href,
@@ -26,7 +26,7 @@ const FooterLinkCategory: React.FC<IFooterLink> = ({
           activCategory === category ? styles.activ : ""
         }`}
       >
-        {label}
+        <span>{label}</span>
       </a>
     </Link>
   );
