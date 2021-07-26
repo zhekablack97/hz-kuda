@@ -1,2 +1,2 @@
-import FooterLinkCategory from './FooterLinkCategory'
-export default FooterLinkCategory
+import FooterLinkCategory from "./FooterLinkCategory";
+export default FooterLinkCategory;
