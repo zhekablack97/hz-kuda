@@ -1,8 +1,11 @@
 {
+  "homepage": "https://zhekablack97.github.io/hz-kuda/",
   "name": "sport-inventory",
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -52,6 +55,7 @@
     "eslint-plugin-prettier": "^3.4.0",
     "eslint-plugin-react": "^7.23.2",
     "eslint-plugin-react-hooks": "^4.2.0",
+    "gh-pages": "^3.2.3",
     "husky": "^6.0.0",
     "lint-staged": "^11.0.0",
     "prettier": "2.2.1",
