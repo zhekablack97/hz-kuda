@@ -1,0 +1,19 @@
+@import "styles/const/_colors.scss";
+
+.link {
+  padding: 0 10px;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-size: 12px;
+  color: $white100;
+  background-color: $purple40;
+  justify-content: center;
+  border-radius: 8px;
+}
+.activ {
+  background-color: $white100;
+  color: $purple50;
+}
