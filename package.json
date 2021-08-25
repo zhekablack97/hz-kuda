@@ -1,11 +1,11 @@
 {
   "homepage": "https://zhekablack97.github.io/hz-kuda/",
-  "name": "sport-inventory",
+  "name": "hz-kuda",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d next",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
