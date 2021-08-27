@@ -32,6 +32,7 @@
     "eslint-config-jest-enzyme": "^7.1.2",
     "eslint-plugin-jest": "^24.3.6",
     "gray-matter": "^4.0.3",
+    "mongose": "0.0.2-security",
     "next": "10.2.0",
     "next-useragent": "^2.6.0",
     "node-sass": "^5.0.0",
