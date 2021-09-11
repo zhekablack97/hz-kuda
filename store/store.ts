@@ -1,11 +1,9 @@
 import { configureStore } from "@reduxjs/toolkit";
-import activCategoryReducer from "../lib/ActivCategory/activCategory";
 import counterReducer from "../lib/Counter/counterSlice";
 
 const store = configureStore({
   reducer: {
     counter: counterReducer,
-    activCategory: activCategoryReducer,
   },
 });
 

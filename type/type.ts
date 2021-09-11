@@ -1,14 +1,8 @@
-import { ActionCreatorWithoutPayload } from "@reduxjs/toolkit";
-
-export type TypeFooterLink = "/food" | "/entertainment" | "/nature";
-
 export type TypeActivCategory = "food" | "entertainment" | "nature";
 
 export interface IFooterLink {
-  href: TypeFooterLink;
-  actions: ActionCreatorWithoutPayload<string>;
+  href: string;
   label: string;
-  category: TypeActivCategory;
 }
 
 export type TypeSortedPost = {
