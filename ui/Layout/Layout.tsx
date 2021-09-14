@@ -26,8 +26,6 @@ const Layout: React.FC<Ilayout> = ({
   children,
   ...props
 }) => {
-  console.log(useMobileDetect());
-
   return (
     <div className={styles.layout} {...props}>
       <Head>
